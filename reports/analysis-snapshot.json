@@ -1,0 +1,102 @@
+{
+  "BTC-USDT-SWAP": {
+    "symbol": "BTC-USDT-SWAP",
+    "as_of_ms": 1794629775531,
+    "status": "暂不交易",
+    "direction": null,
+    "current_price": null,
+    "price_source": "最近已完成1分钟K线收盘价",
+    "trend": "无法判断",
+    "setup": null,
+    "conditions": [],
+    "invalidation": [],
+    "entry": null,
+    "stop": null,
+    "take_profit": null,
+    "gross_rr": null,
+    "net_rr": null,
+    "estimated_roundtrip_cost_rate": 0.0015999999999999999,
+    "warnings": [
+      "规则候选不是盈利预测；需另行通过仓位风险预算审核。",
+      "1m数据已过期"
+    ],
+    "risk_approved": false,
+    "observations": {},
+    "indicators": {}
+  },
+  "ETH-USDT-SWAP": {
+    "symbol": "ETH-USDT-SWAP",
+    "as_of_ms": 1794629775531,
+    "status": "暂不交易",
+    "direction": null,
+    "current_price": null,
+    "price_source": "最近已完成1分钟K线收盘价",
+    "trend": "无法判断",
+    "setup": null,
+    "conditions": [],
+    "invalidation": [],
+    "entry": null,
+    "stop": null,
+    "take_profit": null,
+    "gross_rr": null,
+    "net_rr": null,
+    "estimated_roundtrip_cost_rate": 0.0015999999999999999,
+    "warnings": [
+      "规则候选不是盈利预测；需另行通过仓位风险预算审核。",
+      "1m数据已过期"
+    ],
+    "risk_approved": false,
+    "observations": {},
+    "indicators": {}
+  },
+  "SOL-USDT-SWAP": {
+    "symbol": "SOL-USDT-SWAP",
+    "as_of_ms": 1794629775531,
+    "status": "暂不交易",
+    "direction": null,
+    "current_price": null,
+    "price_source": "最近已完成1分钟K线收盘价",
+    "trend": "无法判断",
+    "setup": null,
+    "conditions": [],
+    "invalidation": [],
+    "entry": null,
+    "stop": null,
+    "take_profit": null,
+    "gross_rr": null,
+    "net_rr": null,
+    "estimated_roundtrip_cost_rate": 0.0015999999999999999,
+    "warnings": [
+      "规则候选不是盈利预测；需另行通过仓位风险预算审核。",
+      "1m数据已过期"
+    ],
+    "risk_approved": false,
+    "observations": {},
+    "indicators": {}
+  },
+  "UNI-USDT-SWAP": {
+    "symbol": "UNI-USDT-SWAP",
+    "as_of_ms": 1794629775531,
+    "status": "暂不交易",
+    "direction": null,
+    "current_price": null,
+    "price_source": "最近已完成1分钟K线收盘价",
+    "trend": "无法判断",
+    "setup": null,
+    "conditions": [],
+    "invalidation": [],
+    "entry": null,
+    "stop": null,
+    "take_profit": null,
+    "gross_rr": null,
+    "net_rr": null,
+    "estimated_roundtrip_cost_rate": 0.0015999999999999999,
+    "warnings": [
+      "规则候选不是盈利预测；需另行通过仓位风险预算审核。",
+      "1m数据已过期"
+    ],
+    "risk_approved": false,
+    "observations": {},
+    "indicators": {}
+  }
+}

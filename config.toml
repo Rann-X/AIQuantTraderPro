@@ -1,0 +1,34 @@
+symbols = ["BTC-USDT-SWAP", "ETH-USDT-SWAP", "SOL-USDT-SWAP", "UNI-USDT-SWAP"]
+bars = ["1m", "5m", "15m"]
+rest_url = "https://openapi.okx.com"
+public_ws = "wss://ws.okx.com/ws/v5/public"
+business_ws = "wss://ws.okx.com/ws/v5/business"
+database = "data/market.sqlite3"
+initial_candles = 300
+rest_interval = 0.55
+stale_seconds = 30
+
+[strategy]
+volume_ratio = 1.2
+high_atr_ratio = 0.02
+trend_separation = 0.0005
+stop_atr = 1.5
+reward_multiple = 2.5
+taker_fee = 0.0005
+slippage = 0.0003
+min_net_rr = 1.5
+
+[risk]
+leverage = "20"
+per_trade = "0.02"
+daily_limit = "0.05"
+fee = "0.0005"
+slippage = "0.0003"
+funding_reserve_rate = "0.001"
+minimum_rr = "1.5"
+
+[notifications]
+enabled = true
+cooldown_seconds = 300
+minimum_interval_seconds = 10
+analysis_interval_seconds = 10

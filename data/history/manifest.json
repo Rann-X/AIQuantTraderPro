@@ -1,0 +1,13 @@
+{
+  "source": "OKX official public API",
+  "start_ms": 1793836800000,
+  "end_ms": 1794614400000,
+  "downloaded_ms": 1794631673140,
+  "files": {
+    "BTC-USDT-SWAP": "520ff097e2c6154097723a92b42520789cd4a4c659cda9c3f34a1e0a82e97f90",
+    "ETH-USDT-SWAP": "80ead6cdf4b7fad8604480c2b1b8a8a3f9d32c162194824a1718437749213a7f",
+    "SOL-USDT-SWAP": "0f805d15f8ddb37e2922581a3b46f934ff5f13f553ecfaa0b753440640d53713",
+    "UNI-USDT-SWAP": "9e71452b6d49deafaa879c4722cc77d1a4fc0a93a51ebf89e690e1b4d8ccef50"
+  },
+  "errors": []
+}

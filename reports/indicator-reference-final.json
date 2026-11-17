@@ -1,0 +1,58 @@
+{
+  "as_of_ms": 1794633653162,
+  "source": "actual stored OKX confirmed candles",
+  "reference": "independent Python scalar recurrences and statistics; same documented conventions",
+  "checks": 240,
+  "max_relative_error": 1.1090751994147843e-12,
+  "errors": [],
+  "windows": {
+    "BTC-USDT-SWAP:1m": {
+      "count": 300,
+      "last_ts": 1794633540000
+    },
+    "BTC-USDT-SWAP:5m": {
+      "count": 300,
+      "last_ts": 1794633300000
+    },
+    "BTC-USDT-SWAP:15m": {
+      "count": 300,
+      "last_ts": 1794632400000
+    },
+    "ETH-USDT-SWAP:1m": {
+      "count": 300,
+      "last_ts": 1794633540000
+    },
+    "ETH-USDT-SWAP:5m": {
+      "count": 300,
+      "last_ts": 1794633300000
+    },
+    "ETH-USDT-SWAP:15m": {
+      "count": 300,
+      "last_ts": 1794632400000
+    },
+    "SOL-USDT-SWAP:1m": {
+      "count": 300,
+      "last_ts": 1794633540000
+    },
+    "SOL-USDT-SWAP:5m": {
+      "count": 300,
+      "last_ts": 1794633300000
+    },
+    "SOL-USDT-SWAP:15m": {
+      "count": 300,
+      "last_ts": 1794632400000
+    },
+    "UNI-USDT-SWAP:1m": {
+      "count": 300,
+      "last_ts": 1794633540000
+    },
+    "UNI-USDT-SWAP:5m": {
+      "count": 300,
+      "last_ts": 1794633300000
+    },
+    "UNI-USDT-SWAP:15m": {
+      "count": 300,
+      "last_ts": 1794632400000
+    }
+  }
+}

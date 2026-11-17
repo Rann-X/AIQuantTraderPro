@@ -1,0 +1,52 @@
+{
+  "tests": 70,
+  "clean_install_tests": 70,
+  "history_counts": {
+    "BTC-USDT-SWAP": {
+      "1m": 12960,
+      "5m": 2592,
+      "15m": 864
+    },
+    "ETH-USDT-SWAP": {
+      "1m": 12960,
+      "5m": 2592,
+      "15m": 864
+    },
+    "SOL-USDT-SWAP": {
+      "1m": 12960,
+      "5m": 2592,
+      "15m": 864
+    },
+    "UNI-USDT-SWAP": {
+      "1m": 12960,
+      "5m": 2592,
+      "15m": 864
+    }
+  },
+  "indicator_checks": 240,
+  "soak_passed": true,
+  "integration_passed": true,
+  "wheel_matches_current_source": true,
+  "no_private_or_trading_endpoints": true,
+  "seven_pages_tested": true,
+  "no_placeholder_functions": true,
+  "required_deliverables": [
+    "README.md",
+    "install.bat",
+    "start.bat",
+    "install.ps1",
+    "start.ps1",
+    "stop.ps1",
+    "config.toml",
+    "docs/USER_MANUAL.md",
+    "docs/API.md",
+    "docs/STRATEGY.md",
+    "docs/RISK_AND_PAPER.md",
+    "docs/ASSISTANT.md",
+    "docs/EXTENSIONS.md",
+    "docs/PLAN.md",
+    "reports/BACKTEST.md",
+    "reports/ACCEPTANCE.md"
+  ],
+  "limitations_documented": "reports/ACCEPTANCE.md"
+}

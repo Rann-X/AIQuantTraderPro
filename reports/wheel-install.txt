@@ -1,0 +1,10 @@
+Processing c:\users\20235\documents\codex\2026-11-14\ai-quant-trader-pro-python-python-2\outputs\aiquanttraderpro\dist\ai_quant_trader_pro-1.0.0-py3-none-any.whl
+Installing collected packages: ai-quant-trader-pro
+  Attempting uninstall: ai-quant-trader-pro
+    Found existing installation: ai-quant-trader-pro 1.0.0
+    Uninstalling ai-quant-trader-pro-1.0.0:
+      Successfully uninstalled ai-quant-trader-pro-1.0.0
+Successfully installed ai-quant-trader-pro-1.0.0
+
+[notice] A new release of pip is available: 25.3 -> 26.3
+[notice] To update, run: C:\Users\20235\Documents\Codex\2026-11-14\ai-quant-trader-pro-python-python-2\outputs\AIQuantTraderPro\.venv-verify\Scripts\python.exe -m pip install --upgrade pip

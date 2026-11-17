@@ -1,0 +1,481 @@
+{
+  "started_ms": 1794635712774,
+  "previous_supervisor": 16352,
+  "stop_script_verified": true,
+  "start_script_verified": true,
+  "windows_status_read_lock_survived": true,
+  "supervisor_pid": 19236,
+  "services": {
+    "market": {
+      "pid": 41292,
+      "running": true,
+      "exit_code": null,
+      "restarts": 0
+    },
+    "api": {
+      "pid": 39752,
+      "running": true,
+      "exit_code": null,
+      "restarts": 0
+    },
+    "paper": {
+      "pid": 14968,
+      "running": true,
+      "exit_code": null,
+      "restarts": 0
+    },
+    "assistant": {
+      "pid": 33992,
+      "running": true,
+      "exit_code": null,
+      "restarts": 0
+    },
+    "terminal": {
+      "pid": 38024,
+      "running": true,
+      "exit_code": null,
+      "restarts": 0
+    }
+  },
+  "health": {
+    "time_ms": 1794635748014,
+    "ready": true,
+    "mode": "PUBLIC_DATA_ONLY",
+    "connections": {
+      "public": {
+        "connected": true,
+        "connected_ms": 1794635746363,
+        "last_message_ms": 1794635747903,
+        "subscriptions": [
+          {
+            "channel": "tickers",
+            "instId": "BTC-USDT-SWAP"
+          },
+          {
+            "channel": "books5",
+            "instId": "BTC-USDT-SWAP"
+          },
+          {
+            "channel": "mark-price",
+            "instId": "BTC-USDT-SWAP"
+          },
+          {
+            "channel": "funding-rate",
+            "instId": "BTC-USDT-SWAP"
+          },
+          {
+            "channel": "tickers",
+            "instId": "ETH-USDT-SWAP"
+          },
+          {
+            "channel": "books5",
+            "instId": "ETH-USDT-SWAP"
+          },
+          {
+            "channel": "mark-price",
+            "instId": "ETH-USDT-SWAP"
+          },
+          {
+            "channel": "funding-rate",
+            "instId": "ETH-USDT-SWAP"
+          },
+          {
+            "channel": "tickers",
+            "instId": "SOL-USDT-SWAP"
+          },
+          {
+            "channel": "books5",
+            "instId": "SOL-USDT-SWAP"
+          },
+          {
+            "channel": "mark-price",
+            "instId": "SOL-USDT-SWAP"
+          },
+          {
+            "channel": "funding-rate",
+            "instId": "SOL-USDT-SWAP"
+          },
+          {
+            "channel": "tickers",
+            "instId": "UNI-USDT-SWAP"
+          },
+          {
+            "channel": "books5",
+            "instId": "UNI-USDT-SWAP"
+          },
+          {
+            "channel": "mark-price",
+            "instId": "UNI-USDT-SWAP"
+          },
+          {
+            "channel": "funding-rate",
+            "instId": "UNI-USDT-SWAP"
+          }
+        ],
+        "reconnects": 0
+      },
+      "business": {
+        "connected": true,
+        "connected_ms": 1794635746393,
+        "last_message_ms": 1794635747599,
+        "subscriptions": [
+          {
+            "channel": "candle1m",
+            "instId": "BTC-USDT-SWAP"
+          },
+          {
+            "channel": "candle5m",
+            "instId": "BTC-USDT-SWAP"
+          },
+          {
+            "channel": "candle15m",
+            "instId": "BTC-USDT-SWAP"
+          },
+          {
+            "channel": "candle1m",
+            "instId": "ETH-USDT-SWAP"
+          },
+          {
+            "channel": "candle5m",
+            "instId": "ETH-USDT-SWAP"
+          },
+          {
+            "channel": "candle15m",
+            "instId": "ETH-USDT-SWAP"
+          },
+          {
+            "channel": "candle1m",
+            "instId": "SOL-USDT-SWAP"
+          },
+          {
+            "channel": "candle5m",
+            "instId": "SOL-USDT-SWAP"
+          },
+          {
+            "channel": "candle15m",
+            "instId": "SOL-USDT-SWAP"
+          },
+          {
+            "channel": "candle1m",
+            "instId": "UNI-USDT-SWAP"
+          },
+          {
+            "channel": "candle5m",
+            "instId": "UNI-USDT-SWAP"
+          },
+          {
+            "channel": "candle15m",
+            "instId": "UNI-USDT-SWAP"
+          }
+        ],
+        "reconnects": 0
+      }
+    },
+    "invalid_messages": 0,
+    "ws_updates": {
+      "BTC-USDT-SWAP:tickers": 9,
+      "BTC-USDT-SWAP:mark-price": 8,
+      "ETH-USDT-SWAP:tickers": 10,
+      "BTC-USDT-SWAP:funding-rate": 1,
+      "ETH-USDT-SWAP:funding-rate": 1,
+      "ETH-USDT-SWAP:mark-price": 8,
+      "SOL-USDT-SWAP:tickers": 10,
+      "SOL-USDT-SWAP:mark-price": 8,
+      "UNI-USDT-SWAP:tickers": 10,
+      "SOL-USDT-SWAP:funding-rate": 1,
+      "UNI-USDT-SWAP:mark-price": 8,
+      "UNI-USDT-SWAP:funding-rate": 1,
+      "BTC-USDT-SWAP:candle1m": 2,
+      "BTC-USDT-SWAP:candle5m": 2,
+      "ETH-USDT-SWAP:candle1m": 3,
+      "ETH-USDT-SWAP:candle5m": 3,
+      "SOL-USDT-SWAP:candle1m": 3,
+      "SOL-USDT-SWAP:candle5m": 3,
+      "SOL-USDT-SWAP:candle15m": 3,
+      "UNI-USDT-SWAP:candle1m": 1,
+      "UNI-USDT-SWAP:candle5m": 1,
+      "UNI-USDT-SWAP:candle15m": 1,
+      "BTC-USDT-SWAP:candle15m": 2,
+      "ETH-USDT-SWAP:candle15m": 3,
+      "SOL-USDT-SWAP:books5": 12,
+      "BTC-USDT-SWAP:books5": 12,
+      "UNI-USDT-SWAP:books5": 8,
+      "ETH-USDT-SWAP:books5": 11
+    },
+    "markets": {
+      "BTC-USDT-SWAP": {
+        "channels": {
+          "tickers": {
+            "present": true,
+            "stale": false
+          },
+          "books5": {
+            "present": true,
+            "stale": false
+          },
+          "mark-price": {
+            "present": true,
+            "stale": false
+          },
+          "funding-rate": {
+            "present": true,
+            "stale": false
+          }
+        },
+        "bars": {
+          "1m": {
+            "confirmed_count": 300,
+            "latest_open_ms": 1794635640000,
+            "gaps": [],
+            "stale": false
+          },
+          "5m": {
+            "confirmed_count": 300,
+            "latest_open_ms": 1794635400000,
+            "gaps": [],
+            "stale": false
+          },
+          "15m": {
+            "confirmed_count": 300,
+            "latest_open_ms": 1794634200000,
+            "gaps": [],
+            "stale": false
+          }
+        }
+      },
+      "ETH-USDT-SWAP": {
+        "channels": {
+          "tickers": {
+            "present": true,
+            "stale": false
+          },
+          "books5": {
+            "present": true,
+            "stale": false
+          },
+          "mark-price": {
+            "present": true,
+            "stale": false
+          },
+          "funding-rate": {
+            "present": true,
+            "stale": false
+          }
+        },
+        "bars": {
+          "1m": {
+            "confirmed_count": 300,
+            "latest_open_ms": 1794635640000,
+            "gaps": [],
+            "stale": false
+          },
+          "5m": {
+            "confirmed_count": 300,
+            "latest_open_ms": 1794635400000,
+            "gaps": [],
+            "stale": false
+          },
+          "15m": {
+            "confirmed_count": 300,
+            "latest_open_ms": 1794634200000,
+            "gaps": [],
+            "stale": false
+          }
+        }
+      },
+      "SOL-USDT-SWAP": {
+        "channels": {
+          "tickers": {
+            "present": true,
+            "stale": false
+          },
+          "books5": {
+            "present": true,
+            "stale": false
+          },
+          "mark-price": {
+            "present": true,
+            "stale": false
+          },
+          "funding-rate": {
+            "present": true,
+            "stale": false
+          }
+        },
+        "bars": {
+          "1m": {
+            "confirmed_count": 300,
+            "latest_open_ms": 1794635640000,
+            "gaps": [],
+            "stale": false
+          },
+          "5m": {
+            "confirmed_count": 300,
+            "latest_open_ms": 1794635400000,
+            "gaps": [],
+            "stale": false
+          },
+          "15m": {
+            "confirmed_count": 300,
+            "latest_open_ms": 1794634200000,
+            "gaps": [],
+            "stale": false
+          }
+        }
+      },
+      "UNI-USDT-SWAP": {
+        "channels": {
+          "tickers": {
+            "present": true,
+            "stale": false
+          },
+          "books5": {
+            "present": true,
+            "stale": false
+          },
+          "mark-price": {
+            "present": true,
+            "stale": false
+          },
+          "funding-rate": {
+            "present": true,
+            "stale": false
+          }
+        },
+        "bars": {
+          "1m": {
+            "confirmed_count": 300,
+            "latest_open_ms": 1794635640000,
+            "gaps": [],
+            "stale": false
+          },
+          "5m": {
+            "confirmed_count": 300,
+            "latest_open_ms": 1794635400000,
+            "gaps": [],
+            "stale": false
+          },
+          "15m": {
+            "confirmed_count": 300,
+            "latest_open_ms": 1794634200000,
+            "gaps": [],
+            "stale": false
+          }
+        }
+      }
+    },
+    "collector_alive": true
+  },
+  "candle_checks": {
+    "BTC-USDT-SWAP:1m": {
+      "count": 300,
+      "last_ts": 1794635640000
+    },
+    "BTC-USDT-SWAP:5m": {
+      "count": 300,
+      "last_ts": 1794635400000
+    },
+    "BTC-USDT-SWAP:15m": {
+      "count": 300,
+      "last_ts": 1794634200000
+    },
+    "ETH-USDT-SWAP:1m": {
+      "count": 300,
+      "last_ts": 1794635640000
+    },
+    "ETH-USDT-SWAP:5m": {
+      "count": 300,
+      "last_ts": 1794635400000
+    },
+    "ETH-USDT-SWAP:15m": {
+      "count": 300,
+      "last_ts": 1794634200000
+    },
+    "SOL-USDT-SWAP:1m": {
+      "count": 300,
+      "last_ts": 1794635640000
+    },
+    "SOL-USDT-SWAP:5m": {
+      "count": 300,
+      "last_ts": 1794635400000
+    },
+    "SOL-USDT-SWAP:15m": {
+      "count": 300,
+      "last_ts": 1794634200000
+    },
+    "UNI-USDT-SWAP:1m": {
+      "count": 300,
+      "last_ts": 1794635640000
+    },
+    "UNI-USDT-SWAP:5m": {
+      "count": 300,
+      "last_ts": 1794635400000
+    },
+    "UNI-USDT-SWAP:15m": {
+      "count": 300,
+      "last_ts": 1794634200000
+    }
+  },
+  "analysis_checks": {
+    "BTC-USDT-SWAP": {
+      "status": "暂不交易",
+      "current_price": "67072.8",
+      "reference_close": 67091.5
+    },
+    "ETH-USDT-SWAP": {
+      "status": "暂不交易",
+      "current_price": "1902.06",
+      "reference_close": 1901.72
+    },
+    "SOL-USDT-SWAP": {
+      "status": "暂不交易",
+      "current_price": "75.89",
+      "reference_close": 75.89
+    },
+    "UNI-USDT-SWAP": {
+      "status": "暂不交易",
+      "current_price": "5.605",
+      "reference_close": 5.609
+    }
+  },
+  "read_only_api_verified": true,
+  "completed_ms": 1794635793339,
+  "passed": true,
+  "owned_process_tree_stop_verified": true,
+  "final_runtime": {
+    "supervisor_pid": 24640,
+    "time_ms": 1794635793028,
+    "services": {
+      "market": {
+        "pid": 3540,
+        "running": true,
+        "exit_code": null,
+        "restarts": 0
+      },
+      "api": {
+        "pid": 30780,
+        "running": true,
+        "exit_code": null,
+        "restarts": 0
+      },
+      "paper": {
+        "pid": 36368,
+        "running": true,
+        "exit_code": null,
+        "restarts": 0
+      },
+      "assistant": {
+        "pid": 6384,
+        "running": true,
+        "exit_code": null,
+        "restarts": 0
+      },
+      "terminal": {
+        "pid": 33680,
+        "running": true,
+        "exit_code": null,
+        "restarts": 0
+      }
+    }
+  }
+}

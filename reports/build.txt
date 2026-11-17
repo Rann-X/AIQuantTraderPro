@@ -1,0 +1,104 @@
+﻿* Getting build dependencies for wheel...
+running egg_info
+writing ai_quant_trader_pro.egg-info\PKG-INFO
+writing dependency_links to ai_quant_trader_pro.egg-info\dependency_links.txt
+writing entry points to ai_quant_trader_pro.egg-info\entry_points.txt
+writing requirements to ai_quant_trader_pro.egg-info\requires.txt
+writing top-level names to ai_quant_trader_pro.egg-info\top_level.txt
+reading manifest file 'ai_quant_trader_pro.egg-info\SOURCES.txt'
+writing manifest file 'ai_quant_trader_pro.egg-info\SOURCES.txt'
+* Building wheel...
+running bdist_wheel
+running build
+running build_py
+copying quant\analysis.py -> build\lib\quant
+copying quant\backtest.py -> build\lib\quant
+copying quant\desktop.py -> build\lib\quant
+copying quant\explain.py -> build\lib\quant
+copying quant\integration_check.py -> build\lib\quant
+copying quant\preferences.py -> build\lib\quant
+copying quant\release.py -> build\lib\quant
+copying quant\ui.py -> build\lib\quant
+running egg_info
+writing ai_quant_trader_pro.egg-info\PKG-INFO
+writing dependency_links to ai_quant_trader_pro.egg-info\dependency_links.txt
+writing entry points to ai_quant_trader_pro.egg-info\entry_points.txt
+writing requirements to ai_quant_trader_pro.egg-info\requires.txt
+writing top-level names to ai_quant_trader_pro.egg-info\top_level.txt
+reading manifest file 'ai_quant_trader_pro.egg-info\SOURCES.txt'
+writing manifest file 'ai_quant_trader_pro.egg-info\SOURCES.txt'
+installing to build\bdist.win-amd64\wheel
+running install
+running install_lib
+creating build\bdist.win-amd64\wheel
+creating build\bdist.win-amd64\wheel\quant
+copying build\lib\quant\analysis.py -> build\bdist.win-amd64\wheel\.\quant
+copying build\lib\quant\api.py -> build\bdist.win-amd64\wheel\.\quant
+copying build\lib\quant\assistant_cli.py -> build\bdist.win-amd64\wheel\.\quant
+copying build\lib\quant\backtest.py -> build\bdist.win-amd64\wheel\.\quant
+copying build\lib\quant\cli.py -> build\bdist.win-amd64\wheel\.\quant
+copying build\lib\quant\collector.py -> build\bdist.win-amd64\wheel\.\quant
+copying build\lib\quant\config.py -> build\bdist.win-amd64\wheel\.\quant
+copying build\lib\quant\desktop.py -> build\bdist.win-amd64\wheel\.\quant
+copying build\lib\quant\explain.py -> build\bdist.win-amd64\wheel\.\quant
+copying build\lib\quant\history.py -> build\bdist.win-amd64\wheel\.\quant
+copying build\lib\quant\indicators.py -> build\bdist.win-amd64\wheel\.\quant
+copying build\lib\quant\integration_check.py -> build\bdist.win-amd64\wheel\.\quant
+copying build\lib\quant\llm.py -> build\bdist.win-amd64\wheel\.\quant
+copying build\lib\quant\models.py -> build\bdist.win-amd64\wheel\.\quant
+copying build\lib\quant\notifications.py -> build\bdist.win-amd64\wheel\.\quant
+copying build\lib\quant\okx.py -> build\bdist.win-amd64\wheel\.\quant
+copying build\lib\quant\paper.py -> build\bdist.win-amd64\wheel\.\quant
+copying build\lib\quant\paper_cli.py -> build\bdist.win-amd64\wheel\.\quant
+copying build\lib\quant\paper_service.py -> build\bdist.win-amd64\wheel\.\quant
+copying build\lib\quant\preferences.py -> build\bdist.win-amd64\wheel\.\quant
+copying build\lib\quant\release.py -> build\bdist.win-amd64\wheel\.\quant
+copying build\lib\quant\risk.py -> build\bdist.win-amd64\wheel\.\quant
+copying build\lib\quant\smoke_risk.py -> build\bdist.win-amd64\wheel\.\quant
+copying build\lib\quant\soak.py -> build\bdist.win-amd64\wheel\.\quant
+copying build\lib\quant\store.py -> build\bdist.win-amd64\wheel\.\quant
+copying build\lib\quant\strategy.py -> build\bdist.win-amd64\wheel\.\quant
+copying build\lib\quant\ui.py -> build\bdist.win-amd64\wheel\.\quant
+copying build\lib\quant\validation.py -> build\bdist.win-amd64\wheel\.\quant
+copying build\lib\quant\__init__.py -> build\bdist.win-amd64\wheel\.\quant
+running install_egg_info
+Copying ai_quant_trader_pro.egg-info to build\bdist.win-amd64\wheel\.\ai_quant_trader_pro-1.0.0-py3.14.egg-info
+running install_scripts
+creating build\bdist.win-amd64\wheel\ai_quant_trader_pro-1.0.0.dist-info\WHEEL
+creating '<build-workspace>/dist\\.tmp-t0kqcvip\\ai_quant_trader_pro-1.0.0-py3-none-any.whl' and adding 'build\\bdist.win-amd64\\wheel' to it
+adding 'quant/__init__.py'
+adding 'quant/analysis.py'
+adding 'quant/api.py'
+adding 'quant/assistant_cli.py'
+adding 'quant/backtest.py'
+adding 'quant/cli.py'
+adding 'quant/collector.py'
+adding 'quant/config.py'
+adding 'quant/desktop.py'
+adding 'quant/explain.py'
+adding 'quant/history.py'
+adding 'quant/indicators.py'
+adding 'quant/integration_check.py'
+adding 'quant/llm.py'
+adding 'quant/models.py'
+adding 'quant/notifications.py'
+adding 'quant/okx.py'
+adding 'quant/paper.py'
+adding 'quant/paper_cli.py'
+adding 'quant/paper_service.py'
+adding 'quant/preferences.py'
+adding 'quant/release.py'
+adding 'quant/risk.py'
+adding 'quant/smoke_risk.py'
+adding 'quant/soak.py'
+adding 'quant/store.py'
+adding 'quant/strategy.py'
+adding 'quant/ui.py'
+adding 'quant/validation.py'
+adding 'ai_quant_trader_pro-1.0.0.dist-info/METADATA'
+adding 'ai_quant_trader_pro-1.0.0.dist-info/WHEEL'
+adding 'ai_quant_trader_pro-1.0.0.dist-info/entry_points.txt'
+adding 'ai_quant_trader_pro-1.0.0.dist-info/top_level.txt'
+adding 'ai_quant_trader_pro-1.0.0.dist-info/RECORD'
+removing build\bdist.win-amd64\wheel
+Successfully built ai_quant_trader_pro-1.0.0-py3-none-any.whl
